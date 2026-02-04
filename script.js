@@ -7,5 +7,5 @@ function start() {
 function useInput() {
   const name = document.getElementById("nameInput").value;
   document.getElementById("welcomeMessage").innerHTML =
-    "Hello " + name;
+    "Your number is " + name;
 }
