@@ -6,7 +6,7 @@
     <script src="script.js"></script>
 <body>
 
-   <h1 id="welcomeMessage"></h1>
+<h1 id="welcomeMessage">Welcome</h1>
 
 <p>Your tasks:
     <ul>
@@ -22,6 +22,12 @@
     <p>You learned all this last year. You just need to remember how!<br>
     You can Google it, ask a friend, copy from last year's work, whatever works for you.<br>
     By the end of the spell you should have some JavaScript going.</p>
-    <button onClick="start()">START</button> 
+
+    <label for="formName">Name:</label>
+    <input type="text" id="nameInput">
+    <button onclick="useInput()">Submit</button>
+
+
+
 </body>
 </html>
